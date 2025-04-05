@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Academia {
     private String nomeAcademia;
-    private ArrayList<Pessoa> pessoas;
+    private static ArrayList<Pessoa> pessoas;
 
     public Academia(String nomeAcademia) {
         this.nomeAcademia = nomeAcademia;
         this.pessoas = new ArrayList<>();
     }
 
-    public void adicionarPessoa(Pessoa pessoa) {
+    public static void adicionarPessoa(Pessoa pessoa) {
         pessoas.add(pessoa);
     }
 

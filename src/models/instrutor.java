@@ -1,7 +1,7 @@
 package models;
 
-abstract class instrutor extends Pessoa {
-    private String especialidadeInstrutor;
+public abstract class instrutor extends Pessoa {
+    public String especialidadeInstrutor;
 
     public instrutor(String nome, int idade, String especialidadeInstrutor) {
         super(nome, idade);
