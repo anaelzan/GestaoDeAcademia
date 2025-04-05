@@ -1,5 +1,5 @@
 TESTE SENAI
-PROJETO SENAI POO
+:heart: PROJETO SENAI POO
 ## O sistema de gestão de academia com os pilares da POO:
 
 - **Encapsulamento** protege os dados das classes `Cliente` e `Instrutor`.
@@ -12,3 +12,4 @@ PROJETO SENAI POO
 - **Encapsulamento**: Os atributos são privados e acessados por métodos públicos.
 - **Polimorfismo**: O método `getDescricao()` é sobrescrito para retornar informações específicas de `Cliente` e `Instrutor`.
 - **Composição**: A `Academia` contém uma lista de `Pessoa`, que pode ser `Cliente` ou `Instrutor`.
+- :heart: test:
