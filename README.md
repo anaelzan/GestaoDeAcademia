@@ -1,4 +1,3 @@
-TESTE SENAI
 ## :HEART: PROJETO SENAI POO
 ## O sistema de gestão de academia com os pilares da POO:
 
