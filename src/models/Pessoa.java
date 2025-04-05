@@ -4,7 +4,7 @@ abstract class Pessoa {
     protected String nomePessoa;
     protected int idadePessoa;
 
-    public Pessoa(String nome, int idade){
+    public Pessoa(String nome, int idade) {
         this.nomePessoa = nome;
         this.idadePessoa = idade;
 
@@ -19,6 +19,9 @@ abstract class Pessoa {
         return nomePessoa;
 
     }
-    public abstract String getDescricao ();
 
+    public abstract String getDescricao();{
+
+
+}
 }
