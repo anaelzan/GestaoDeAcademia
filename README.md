@@ -1,4 +1,4 @@
-## :HEART: PROJETO SENAI POO
+## :heart: PROJETO SENAI POO
 ## O sistema de gestão de academia com os pilares da POO:
 
 - **Encapsulamento** protege os dados das classes `Cliente` e `Instrutor`.
