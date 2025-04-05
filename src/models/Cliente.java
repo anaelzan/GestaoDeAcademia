@@ -1,7 +1,7 @@
 package models;
 
-abstract class clientes extends Pessoa {
-    private String planoCliente;
+ public abstract class clientes extends Pessoa {
+    public String planoCliente;
 
     public clientes(String nome, int idade, String planoCliente) {
         super(nome, idade);
