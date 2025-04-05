@@ -1,6 +1,6 @@
 package models;
 
-public abstract class instrutor extends Pessoa {
+public class instrutor extends Pessoa {
     public String especialidadeInstrutor;
 
     public instrutor(String nome, int idade, String especialidadeInstrutor) {
@@ -19,6 +19,11 @@ public abstract class instrutor extends Pessoa {
                 ", nomePessoa='" + nomePessoa + '\'' +
                 ", idadePessoa=" + idadePessoa +
                 '}';
+    }
+
+    @Override
+    public String getDescricao() {
+        return "";
     }
 }
 

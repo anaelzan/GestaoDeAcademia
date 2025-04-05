@@ -15,19 +15,9 @@ public class Main {
         Cliente cliente2 = new Cliente("Mariana Souza", 25, "Básico");
 
 
-        instrutor instrutor1 = new instrutor("João Pereira", 40, "Musculação") {
-            @Override
-            public String getDescricao() {
-                return "";
-            }
-        };
+        instrutor instrutor1 = new instrutor("João Pereira", 40, "Musculação");
 
-        instrutor instrutor2 = new instrutor("Ana Costa", 35, "Pilates") {
-            @Override
-            public String getDescricao() {
-                return "";
-            }
-        };
+        instrutor instrutor2 = new instrutor("Ana Costa", 35, "Pilates");
 
         Academia.adicionarPessoa(cliente1);
         Academia.adicionarPessoa(cliente2);
